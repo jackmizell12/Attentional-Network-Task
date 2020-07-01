@@ -331,7 +331,7 @@ function experimentInit() {
   practice_res = new visual.TextStim({
     win: psychoJS.window,
     name: 'practice_res',
-    text: '\nYou have completed the practice trials.\n\n\n\n\nPress SPACEBAR to continue.',
+    text: '\nYou have completed the practice trials.\n\n\n\nPress SPACEBAR to continue.',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.03,  wrapWidth: undefined, ori: 0,
@@ -1665,10 +1665,6 @@ function MainTrialInstructRoutineEachFrame(trials) {
       text_5.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 1.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (text_5.status === PsychoJS.Status.STARTED && t >= frameRemains) {
-      text_5.setAutoDraw(false);
-    }
     
     // *key_resp_7* updates
     if (t >= 0.0 && key_resp_7.status === PsychoJS.Status.NOT_STARTED) {
