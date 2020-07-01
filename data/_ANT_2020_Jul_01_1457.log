@@ -1,0 +1,617 @@
+2.2064 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.5520 	WARNING 	Import Error: No module named 'psychtoolbox'. Using event module for keyboard component.
+9.3685 	WARNING 	Monitor specification not found. Creating a temporary one...
+9.3838 	WARNING 	User requested fullscreen with size [1280  800], but screen is actually [2256, 1504]. Using actual size
+13.6202 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1., 1., 1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x10D11D70>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0E721F50>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2256, 1504]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.6203 	EXP 	window1: recordFrameIntervals = False
+13.7849 	EXP 	window1: recordFrameIntervals = True
+13.9685 	EXP 	window1: recordFrameIntervals = False
+14.3937 	EXP 	Created instr_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='instr_1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.4222 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='ANT_images/image1.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), size=array([0.5 , 0.12]), texRes=128, units='height', win=Window(...))
+14.4637 	EXP 	Created instr_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='instr_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.4871 	EXP 	Created image_2_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='ANT_images/image2.1.png', interpolate=True, mask=None, maskParams=None, name='image_2_1', opacity=1.0, ori=0.0, pos=array([0.  , 0.14]), size=array([0.5 , 0.12]), texRes=128, units='height', win=Window(...))
+14.5134 	EXP 	Created image_2_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='ANT_images/image2.2.png', interpolate=True, mask=None, maskParams=None, name='image_2_2', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), size=array([0.5 , 0.12]), texRes=128, units='height', win=Window(...))
+14.5308 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.5704 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='ANT_images/image3.png', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.07]), size=array([0.7, 0.3]), texRes=128, units='height', win=Window(...))
+14.6038 	EXP 	Created instr_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='instr_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.6499 	EXP 	Created image_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='ANT_images/image4.png', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), size=array([0.6 , 0.15]), texRes=128, units='height', win=Window(...))
+14.6716 	EXP 	Created pract_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='pract_instr', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.6751 	EXP 	Created fix_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='fix_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+14.6784 	EXP 	Created pract_warning = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='pract_warning', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+14.6817 	EXP 	Created fix_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='fix_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+14.6850 	EXP 	Created pract_target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='pract_target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.7, 0.3]), texRes=128, units='height', win=Window(...))
+14.7418 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.7789 	EXP 	Created practice_res = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='practice_res', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.7858 	EXP 	Created practice_accuracy = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='practice_accuracy', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='0', units='height', win=Window(...), wrapWidth=1)
+14.7908 	EXP 	Created response_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='response_time', opacity=1.0, ori=0, pos=array([0.  , 0.04]), rgb=array([0., 0., 0.]), text='0', units='height', win=Window(...), wrapWidth=1)
+14.7953 	EXP 	Created fixation_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='fixation_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+14.7992 	EXP 	Created warning = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='warning', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+14.9367 	EXP 	Created fixation_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='ANT_images/fixation.png', interpolate=True, mask=None, maskParams=None, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+14.9394 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.7, 0.3]), texRes=128, units='height', win=Window(...))
+15.0667 	EXP 	Created post_fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='ANT_images/fixation.png', interpolate=True, mask=None, maskParams=None, name='post_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+15.1309 	EXP 	Created break_message = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='break_message', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.1336 	EXP 	Created fixation_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='fixation_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+15.1362 	EXP 	Created warning = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='warning', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+15.2628 	EXP 	Created fixation_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='ANT_images/fixation.png', interpolate=True, mask=None, maskParams=None, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+15.2655 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.7, 0.3]), texRes=128, units='height', win=Window(...))
+15.3992 	EXP 	Created post_fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='ANT_images/fixation.png', interpolate=True, mask=None, maskParams=None, name='post_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+15.4150 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.5257 	EXP 	instr_1: autoDraw = True
+15.5257 	EXP 	image: autoDraw = True
+16.6895 	DATA 	Keypress: space
+16.7791 	EXP 	instr_1: autoDraw = False
+16.7791 	EXP 	image: autoDraw = False
+16.7791 	EXP 	instr_2: autoDraw = True
+16.7791 	EXP 	image_2_1: autoDraw = True
+16.7791 	EXP 	image_2_2: autoDraw = True
+17.2044 	DATA 	Keypress: space
+17.2652 	EXP 	instr_2: autoDraw = False
+17.2652 	EXP 	image_2_1: autoDraw = False
+17.2652 	EXP 	image_2_2: autoDraw = False
+17.2652 	EXP 	text: autoDraw = True
+17.2652 	EXP 	image_3: autoDraw = True
+18.0720 	DATA 	Keypress: space
+18.1372 	EXP 	text: autoDraw = False
+18.1372 	EXP 	image_3: autoDraw = False
+18.1372 	EXP 	instr_4: autoDraw = True
+18.1372 	EXP 	image_4: autoDraw = True
+18.6208 	DATA 	Keypress: space
+18.6434 	EXP 	instr_4: autoDraw = False
+18.6434 	EXP 	image_4: autoDraw = False
+18.6434 	EXP 	pract_instr: autoDraw = True
+19.6080 	DATA 	Keypress: space
+19.7006 	EXP 	Imported ANT_practice.xlsx as conditions, 24 conditions, 7 params
+19.7017 	EXP 	Created sequence: random, trialTypes=24, nReps=1, seed=None
+19.7029 	EXP 	New trial (rep=0, index=0): OrderedDict([('cue_file', 'ANT_images/up.png'), ('flanker', 'ANT_images/neu_l.png'), ('pos', 0.25), ('correct', 'e'), ('fix1', 1.4), ('cue_time', 0.1), ('stimStart', 1.9)])
+20.0584 	EXP 	pract_instr: autoDraw = False
+20.0584 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+20.0584 	EXP 	pract_warning: image = 'ANT_images/up.png'
+20.0584 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+20.0584 	EXP 	pract_target: pos = array([0.  , 0.25])
+20.0584 	EXP 	pract_target: image = 'ANT_images/neu_l.png'
+20.0584 	EXP 	fix_1: autoDraw = True
+21.4212 	EXP 	pract_warning: autoDraw = True
+21.4553 	EXP 	fix_1: autoDraw = False
+21.6320 	EXP 	pract_warning: autoDraw = False
+21.6320 	EXP 	fix_2: autoDraw = True
+22.0365 	EXP 	fix_2: autoDraw = False
+22.0365 	EXP 	pract_target: autoDraw = True
+22.5207 	DATA 	Keypress: e
+22.5745 	EXP 	fix_1: autoDraw = False
+22.5745 	EXP 	pract_warning: autoDraw = False
+22.5745 	EXP 	fix_2: autoDraw = False
+22.5745 	EXP 	pract_target: autoDraw = False
+22.5745 	EXP 	text_3: color = 'black (named)'
+22.5745 	EXP 	text_3: text = 'Correct'
+22.5745 	EXP 	text_3: autoDraw = True
+22.9380 	EXP 	New trial (rep=0, index=1): OrderedDict([('cue_file', 'ANT_images/none.png'), ('flanker', 'ANT_images/cong_r.png'), ('pos', 0.25), ('correct', 'i'), ('fix1', 0.1), ('cue_time', 0.0), ('stimStart', 0.5)])
+23.1506 	EXP 	text_3: autoDraw = False
+23.1506 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+23.1506 	EXP 	pract_warning: image = 'ANT_images/none.png'
+23.1506 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+23.1506 	EXP 	pract_target: pos = array([0.  , 0.25])
+23.1506 	EXP 	pract_target: image = 'ANT_images/cong_r.png'
+23.1506 	EXP 	fix_1: autoDraw = True
+23.2425 	EXP 	pract_warning: autoDraw = True
+23.2425 	EXP 	pract_warning: autoDraw = False
+23.2425 	EXP 	fix_2: autoDraw = True
+23.2553 	EXP 	fix_1: autoDraw = False
+23.6529 	EXP 	fix_2: autoDraw = False
+23.6529 	EXP 	pract_target: autoDraw = True
+24.3711 	DATA 	Keypress: i
+24.3857 	EXP 	fix_1: autoDraw = False
+24.3857 	EXP 	pract_warning: autoDraw = False
+24.3857 	EXP 	fix_2: autoDraw = False
+24.3857 	EXP 	pract_target: autoDraw = False
+24.3857 	EXP 	text_3: color = 'black (named)'
+24.3857 	EXP 	text_3: text = 'Correct'
+24.3857 	EXP 	text_3: autoDraw = True
+24.7712 	EXP 	New trial (rep=0, index=2): OrderedDict([('cue_file', 'ANT_images/double.png'), ('flanker', 'ANT_images/neu_r.png'), ('pos', -0.25), ('correct', 'i'), ('fix1', 0.7), ('cue_time', 0.1), ('stimStart', 1.2)])
+24.9748 	EXP 	text_3: autoDraw = False
+24.9748 	EXP 	text_3: autoDraw = False
+24.9748 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+24.9748 	EXP 	pract_warning: image = 'ANT_images/double.png'
+24.9748 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+24.9748 	EXP 	pract_target: pos = array([ 0.  , -0.25])
+24.9748 	EXP 	pract_target: image = 'ANT_images/neu_r.png'
+24.9748 	EXP 	fix_1: autoDraw = True
+25.6755 	EXP 	pract_warning: autoDraw = True
+25.6886 	EXP 	fix_1: autoDraw = False
+25.7891 	EXP 	pract_warning: autoDraw = False
+25.7891 	EXP 	fix_2: autoDraw = True
+26.1862 	EXP 	fix_2: autoDraw = False
+26.1862 	EXP 	pract_target: autoDraw = True
+26.7705 	DATA 	Keypress: i
+26.7857 	EXP 	fix_1: autoDraw = False
+26.7857 	EXP 	pract_warning: autoDraw = False
+26.7857 	EXP 	fix_2: autoDraw = False
+26.7857 	EXP 	pract_target: autoDraw = False
+26.7857 	EXP 	text_3: color = 'black (named)'
+26.7857 	EXP 	text_3: text = 'Correct'
+26.7857 	EXP 	text_3: autoDraw = True
+27.1710 	EXP 	New trial (rep=0, index=3): OrderedDict([('cue_file', 'ANT_images/none.png'), ('flanker', 'ANT_images/neu_r.png'), ('pos', 0.25), ('correct', 'i'), ('fix1', 0.1), ('cue_time', 0.0), ('stimStart', 0.5)])
+27.3887 	EXP 	text_3: autoDraw = False
+27.3887 	EXP 	text_3: autoDraw = False
+27.3887 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+27.3887 	EXP 	pract_warning: image = 'ANT_images/none.png'
+27.3887 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+27.3887 	EXP 	pract_target: pos = array([0.  , 0.25])
+27.3887 	EXP 	pract_target: image = 'ANT_images/neu_r.png'
+27.3887 	EXP 	fix_1: autoDraw = True
+27.4887 	EXP 	fix_1: autoDraw = False
+27.4887 	EXP 	pract_warning: autoDraw = True
+27.4887 	EXP 	pract_warning: autoDraw = False
+27.4887 	EXP 	fix_2: autoDraw = True
+27.8861 	EXP 	fix_2: autoDraw = False
+27.8861 	EXP 	pract_target: autoDraw = True
+28.4203 	DATA 	Keypress: i
+28.4520 	EXP 	fix_1: autoDraw = False
+28.4520 	EXP 	pract_warning: autoDraw = False
+28.4520 	EXP 	fix_2: autoDraw = False
+28.4520 	EXP 	pract_target: autoDraw = False
+28.4520 	EXP 	text_3: color = 'black (named)'
+28.4520 	EXP 	text_3: text = 'Correct'
+28.4520 	EXP 	text_3: autoDraw = True
+28.8375 	EXP 	New trial (rep=0, index=4): OrderedDict([('cue_file', 'ANT_images/center.png'), ('flanker', 'ANT_images/neu_r.png'), ('pos', 0.25), ('correct', 'i'), ('fix1', 1.0), ('cue_time', 0.1), ('stimStart', 1.5)])
+29.0378 	EXP 	text_3: autoDraw = False
+29.0378 	EXP 	text_3: autoDraw = False
+29.0378 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+29.0378 	EXP 	pract_warning: image = 'ANT_images/center.png'
+29.0378 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+29.0378 	EXP 	pract_target: pos = array([0.  , 0.25])
+29.0378 	EXP 	pract_target: image = 'ANT_images/neu_r.png'
+29.0378 	EXP 	fix_1: autoDraw = True
+30.0254 	EXP 	pract_warning: autoDraw = True
+30.0385 	EXP 	fix_1: autoDraw = False
+30.1391 	EXP 	pract_warning: autoDraw = False
+30.1391 	EXP 	fix_2: autoDraw = True
+30.5363 	EXP 	fix_2: autoDraw = False
+30.5363 	EXP 	pract_target: autoDraw = True
+31.8703 	DATA 	Keypress: i
+31.8856 	EXP 	fix_1: autoDraw = False
+31.8856 	EXP 	pract_warning: autoDraw = False
+31.8856 	EXP 	fix_2: autoDraw = False
+31.8856 	EXP 	pract_target: autoDraw = False
+31.8856 	EXP 	text_3: color = 'black (named)'
+31.8856 	EXP 	text_3: text = 'Correct'
+31.8856 	EXP 	text_3: autoDraw = True
+32.2709 	EXP 	New trial (rep=0, index=5): OrderedDict([('cue_file', 'ANT_images/down.png'), ('flanker', 'ANT_images/incong_l.png'), ('pos', -0.25), ('correct', 'e'), ('fix1', 1.3), ('cue_time', 0.1), ('stimStart', 1.8000000000000003)])
+32.4667 	EXP 	text_3: autoDraw = False
+32.4667 	EXP 	text_3: autoDraw = False
+32.4667 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+32.4667 	EXP 	pract_warning: image = 'ANT_images/down.png'
+32.4667 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+32.4667 	EXP 	pract_target: pos = array([ 0.  , -0.25])
+32.4667 	EXP 	pract_target: image = 'ANT_images/incong_l.png'
+32.4667 	EXP 	fix_1: autoDraw = True
+33.7587 	EXP 	pract_warning: autoDraw = True
+33.7718 	EXP 	fix_1: autoDraw = False
+33.8724 	EXP 	pract_warning: autoDraw = False
+33.8724 	EXP 	fix_2: autoDraw = True
+34.2697 	EXP 	fix_2: autoDraw = False
+34.2697 	EXP 	pract_target: autoDraw = True
+34.9203 	DATA 	Keypress: e
+34.9355 	EXP 	fix_1: autoDraw = False
+34.9355 	EXP 	pract_warning: autoDraw = False
+34.9355 	EXP 	fix_2: autoDraw = False
+34.9355 	EXP 	pract_target: autoDraw = False
+34.9355 	EXP 	text_3: color = 'black (named)'
+34.9355 	EXP 	text_3: text = 'Correct'
+34.9355 	EXP 	text_3: autoDraw = True
+35.3209 	EXP 	New trial (rep=0, index=6): OrderedDict([('cue_file', 'ANT_images/double.png'), ('flanker', 'ANT_images/neu_r.png'), ('pos', 0.25), ('correct', 'i'), ('fix1', 1.2), ('cue_time', 0.1), ('stimStart', 1.7000000000000002)])
+35.5253 	EXP 	text_3: autoDraw = False
+35.5253 	EXP 	text_3: autoDraw = False
+35.5253 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+35.5253 	EXP 	pract_warning: image = 'ANT_images/double.png'
+35.5253 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+35.5253 	EXP 	pract_target: pos = array([0.  , 0.25])
+35.5253 	EXP 	pract_target: image = 'ANT_images/neu_r.png'
+35.5253 	EXP 	fix_1: autoDraw = True
+36.7254 	EXP 	pract_warning: autoDraw = True
+36.7385 	EXP 	fix_1: autoDraw = False
+36.8391 	EXP 	pract_warning: autoDraw = False
+36.8391 	EXP 	fix_2: autoDraw = True
+37.2362 	EXP 	fix_2: autoDraw = False
+37.2362 	EXP 	pract_target: autoDraw = True
+37.6209 	DATA 	Keypress: i
+37.6354 	EXP 	fix_1: autoDraw = False
+37.6354 	EXP 	pract_warning: autoDraw = False
+37.6354 	EXP 	fix_2: autoDraw = False
+37.6354 	EXP 	pract_target: autoDraw = False
+37.6354 	EXP 	text_3: color = 'black (named)'
+37.6354 	EXP 	text_3: text = 'Correct'
+37.6354 	EXP 	text_3: autoDraw = True
+38.0208 	EXP 	New trial (rep=0, index=7): OrderedDict([('cue_file', 'ANT_images/none.png'), ('flanker', 'ANT_images/cong_l.png'), ('pos', -0.25), ('correct', 'e'), ('fix1', 0.1), ('cue_time', 0.0), ('stimStart', 0.5)])
+38.2262 	EXP 	text_3: autoDraw = False
+38.2262 	EXP 	text_3: autoDraw = False
+38.2262 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+38.2262 	EXP 	pract_warning: image = 'ANT_images/none.png'
+38.2262 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+38.2262 	EXP 	pract_target: pos = array([ 0.  , -0.25])
+38.2262 	EXP 	pract_target: image = 'ANT_images/cong_l.png'
+38.2262 	EXP 	fix_1: autoDraw = True
+38.3254 	EXP 	pract_warning: autoDraw = True
+38.3254 	EXP 	pract_warning: autoDraw = False
+38.3254 	EXP 	fix_2: autoDraw = True
+38.3385 	EXP 	fix_1: autoDraw = False
+38.7362 	EXP 	fix_2: autoDraw = False
+38.7362 	EXP 	pract_target: autoDraw = True
+39.2037 	DATA 	Keypress: e
+39.2189 	EXP 	fix_1: autoDraw = False
+39.2189 	EXP 	pract_warning: autoDraw = False
+39.2189 	EXP 	fix_2: autoDraw = False
+39.2189 	EXP 	pract_target: autoDraw = False
+39.2189 	EXP 	text_3: color = 'black (named)'
+39.2189 	EXP 	text_3: text = 'Correct'
+39.2189 	EXP 	text_3: autoDraw = True
+39.6043 	EXP 	New trial (rep=0, index=8): OrderedDict([('cue_file', 'ANT_images/double.png'), ('flanker', 'ANT_images/cong_r.png'), ('pos', 0.25), ('correct', 'i'), ('fix1', 1.3), ('cue_time', 0.1), ('stimStart', 1.8000000000000003)])
+39.8108 	EXP 	text_3: autoDraw = False
+39.8108 	EXP 	text_3: autoDraw = False
+39.8108 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+39.8108 	EXP 	pract_warning: image = 'ANT_images/double.png'
+39.8108 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+39.8108 	EXP 	pract_target: pos = array([0.  , 0.25])
+39.8108 	EXP 	pract_target: image = 'ANT_images/cong_r.png'
+39.8108 	EXP 	fix_1: autoDraw = True
+41.1086 	EXP 	pract_warning: autoDraw = True
+41.1216 	EXP 	fix_1: autoDraw = False
+41.2224 	EXP 	pract_warning: autoDraw = False
+41.2224 	EXP 	fix_2: autoDraw = True
+41.6196 	EXP 	fix_2: autoDraw = False
+41.6196 	EXP 	pract_target: autoDraw = True
+42.0372 	DATA 	Keypress: i
+42.0520 	EXP 	fix_1: autoDraw = False
+42.0520 	EXP 	pract_warning: autoDraw = False
+42.0520 	EXP 	fix_2: autoDraw = False
+42.0520 	EXP 	pract_target: autoDraw = False
+42.0520 	EXP 	text_3: color = 'black (named)'
+42.0520 	EXP 	text_3: text = 'Correct'
+42.0520 	EXP 	text_3: autoDraw = True
+42.4376 	EXP 	New trial (rep=0, index=9): OrderedDict([('cue_file', 'ANT_images/center.png'), ('flanker', 'ANT_images/neu_r.png'), ('pos', 0.25), ('correct', 'i'), ('fix1', 1.0), ('cue_time', 0.1), ('stimStart', 1.5)])
+42.6395 	EXP 	text_3: autoDraw = False
+42.6395 	EXP 	text_3: autoDraw = False
+42.6395 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+42.6395 	EXP 	pract_warning: image = 'ANT_images/center.png'
+42.6395 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+42.6395 	EXP 	pract_target: pos = array([0.  , 0.25])
+42.6395 	EXP 	pract_target: image = 'ANT_images/neu_r.png'
+42.6395 	EXP 	fix_1: autoDraw = True
+43.6417 	EXP 	pract_warning: autoDraw = True
+43.6549 	EXP 	fix_1: autoDraw = False
+43.7552 	EXP 	pract_warning: autoDraw = False
+43.7552 	EXP 	fix_2: autoDraw = True
+44.1526 	EXP 	fix_2: autoDraw = False
+44.1526 	EXP 	pract_target: autoDraw = True
+44.5203 	DATA 	Keypress: i
+44.5350 	EXP 	fix_1: autoDraw = False
+44.5350 	EXP 	pract_warning: autoDraw = False
+44.5350 	EXP 	fix_2: autoDraw = False
+44.5350 	EXP 	pract_target: autoDraw = False
+44.5350 	EXP 	text_3: color = 'black (named)'
+44.5350 	EXP 	text_3: text = 'Correct'
+44.5350 	EXP 	text_3: autoDraw = True
+44.9205 	EXP 	New trial (rep=0, index=10): OrderedDict([('cue_file', 'ANT_images/center.png'), ('flanker', 'ANT_images/incong_r.png'), ('pos', 0.25), ('correct', 'i'), ('fix1', 0.4), ('cue_time', 0.1), ('stimStart', 0.9)])
+45.1188 	EXP 	text_3: autoDraw = False
+45.1188 	EXP 	text_3: autoDraw = False
+45.1188 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+45.1188 	EXP 	pract_warning: image = 'ANT_images/center.png'
+45.1188 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+45.1188 	EXP 	pract_target: pos = array([0.  , 0.25])
+45.1188 	EXP 	pract_target: image = 'ANT_images/incong_r.png'
+45.1188 	EXP 	fix_1: autoDraw = True
+45.5085 	EXP 	pract_warning: autoDraw = True
+45.5217 	EXP 	fix_1: autoDraw = False
+45.6221 	EXP 	pract_warning: autoDraw = False
+45.6221 	EXP 	fix_2: autoDraw = True
+46.0195 	EXP 	fix_2: autoDraw = False
+46.0195 	EXP 	pract_target: autoDraw = True
+46.5202 	DATA 	Keypress: i
+46.5354 	EXP 	fix_1: autoDraw = False
+46.5354 	EXP 	pract_warning: autoDraw = False
+46.5354 	EXP 	fix_2: autoDraw = False
+46.5354 	EXP 	pract_target: autoDraw = False
+46.5354 	EXP 	text_3: color = 'black (named)'
+46.5354 	EXP 	text_3: text = 'Correct'
+46.5354 	EXP 	text_3: autoDraw = True
+46.9207 	EXP 	New trial (rep=0, index=11): OrderedDict([('cue_file', 'ANT_images/none.png'), ('flanker', 'ANT_images/cong_l.png'), ('pos', 0.25), ('correct', 'e'), ('fix1', 0.1), ('cue_time', 0.0), ('stimStart', 0.5)])
+47.1224 	EXP 	text_3: autoDraw = False
+47.1224 	EXP 	text_3: autoDraw = False
+47.1224 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+47.1224 	EXP 	pract_warning: image = 'ANT_images/none.png'
+47.1224 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+47.1224 	EXP 	pract_target: pos = array([0.  , 0.25])
+47.1224 	EXP 	pract_target: image = 'ANT_images/cong_l.png'
+47.1224 	EXP 	fix_1: autoDraw = True
+47.2225 	EXP 	fix_1: autoDraw = False
+47.2225 	EXP 	pract_warning: autoDraw = True
+47.2225 	EXP 	pract_warning: autoDraw = False
+47.2225 	EXP 	fix_2: autoDraw = True
+47.6195 	EXP 	fix_2: autoDraw = False
+47.6195 	EXP 	pract_target: autoDraw = True
+48.1204 	DATA 	Keypress: e
+48.1353 	EXP 	fix_1: autoDraw = False
+48.1353 	EXP 	pract_warning: autoDraw = False
+48.1353 	EXP 	fix_2: autoDraw = False
+48.1353 	EXP 	pract_target: autoDraw = False
+48.1353 	EXP 	text_3: color = 'black (named)'
+48.1353 	EXP 	text_3: text = 'Correct'
+48.1353 	EXP 	text_3: autoDraw = True
+48.5208 	EXP 	New trial (rep=0, index=12): OrderedDict([('cue_file', 'ANT_images/up.png'), ('flanker', 'ANT_images/cong_l.png'), ('pos', 0.25), ('correct', 'e'), ('fix1', 1.5), ('cue_time', 0.1), ('stimStart', 2.0)])
+48.7228 	EXP 	text_3: autoDraw = False
+48.7228 	EXP 	text_3: autoDraw = False
+48.7228 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+48.7228 	EXP 	pract_warning: image = 'ANT_images/up.png'
+48.7228 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+48.7228 	EXP 	pract_target: pos = array([0.  , 0.25])
+48.7228 	EXP 	pract_target: image = 'ANT_images/cong_l.png'
+48.7228 	EXP 	fix_1: autoDraw = True
+50.2252 	EXP 	pract_warning: autoDraw = True
+50.2384 	EXP 	fix_1: autoDraw = False
+50.3388 	EXP 	pract_warning: autoDraw = False
+50.3388 	EXP 	fix_2: autoDraw = True
+50.7359 	EXP 	fix_2: autoDraw = False
+50.7359 	EXP 	pract_target: autoDraw = True
+51.3370 	DATA 	Keypress: e
+51.3519 	EXP 	fix_1: autoDraw = False
+51.3519 	EXP 	pract_warning: autoDraw = False
+51.3519 	EXP 	fix_2: autoDraw = False
+51.3519 	EXP 	pract_target: autoDraw = False
+51.3519 	EXP 	text_3: color = 'black (named)'
+51.3519 	EXP 	text_3: text = 'Correct'
+51.3519 	EXP 	text_3: autoDraw = True
+51.7375 	EXP 	New trial (rep=0, index=13): OrderedDict([('cue_file', 'ANT_images/center.png'), ('flanker', 'ANT_images/neu_l.png'), ('pos', -0.25), ('correct', 'e'), ('fix1', 0.8), ('cue_time', 0.1), ('stimStart', 1.3)])
+51.9357 	EXP 	text_3: autoDraw = False
+51.9357 	EXP 	text_3: autoDraw = False
+51.9357 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+51.9357 	EXP 	pract_warning: image = 'ANT_images/center.png'
+51.9357 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+51.9357 	EXP 	pract_target: pos = array([ 0.  , -0.25])
+51.9357 	EXP 	pract_target: image = 'ANT_images/neu_l.png'
+51.9357 	EXP 	fix_1: autoDraw = True
+52.7253 	EXP 	pract_warning: autoDraw = True
+52.7383 	EXP 	fix_1: autoDraw = False
+52.8388 	EXP 	pract_warning: autoDraw = False
+52.8388 	EXP 	fix_2: autoDraw = True
+53.2360 	EXP 	fix_2: autoDraw = False
+53.2360 	EXP 	pract_target: autoDraw = True
+53.8203 	DATA 	Keypress: e
+53.8354 	EXP 	fix_1: autoDraw = False
+53.8354 	EXP 	pract_warning: autoDraw = False
+53.8354 	EXP 	fix_2: autoDraw = False
+53.8354 	EXP 	pract_target: autoDraw = False
+53.8354 	EXP 	text_3: color = 'black (named)'
+53.8354 	EXP 	text_3: text = 'Correct'
+53.8354 	EXP 	text_3: autoDraw = True
+54.2207 	EXP 	New trial (rep=0, index=14): OrderedDict([('cue_file', 'ANT_images/center.png'), ('flanker', 'ANT_images/cong_r.png'), ('pos', 0.25), ('correct', 'i'), ('fix1', 1.4), ('cue_time', 0.1), ('stimStart', 1.9)])
+54.4280 	EXP 	text_3: autoDraw = False
+54.4280 	EXP 	text_3: autoDraw = False
+54.4280 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+54.4280 	EXP 	pract_warning: image = 'ANT_images/center.png'
+54.4280 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+54.4280 	EXP 	pract_target: pos = array([0.  , 0.25])
+54.4280 	EXP 	pract_target: image = 'ANT_images/cong_r.png'
+54.4280 	EXP 	fix_1: autoDraw = True
+55.8252 	EXP 	pract_warning: autoDraw = True
+55.8382 	EXP 	fix_1: autoDraw = False
+55.9390 	EXP 	pract_warning: autoDraw = False
+55.9390 	EXP 	fix_2: autoDraw = True
+56.3361 	EXP 	fix_2: autoDraw = False
+56.3361 	EXP 	pract_target: autoDraw = True
+56.7540 	DATA 	Keypress: i
+56.7685 	EXP 	fix_1: autoDraw = False
+56.7685 	EXP 	pract_warning: autoDraw = False
+56.7685 	EXP 	fix_2: autoDraw = False
+56.7685 	EXP 	pract_target: autoDraw = False
+56.7685 	EXP 	text_3: color = 'black (named)'
+56.7685 	EXP 	text_3: text = 'Correct'
+56.7685 	EXP 	text_3: autoDraw = True
+57.1541 	EXP 	New trial (rep=0, index=15): OrderedDict([('cue_file', 'ANT_images/down.png'), ('flanker', 'ANT_images/incong_r.png'), ('pos', -0.25), ('correct', 'i'), ('fix1', 1.0), ('cue_time', 0.1), ('stimStart', 1.5)])
+57.3556 	EXP 	text_3: autoDraw = False
+57.3556 	EXP 	text_3: autoDraw = False
+57.3556 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+57.3556 	EXP 	pract_warning: image = 'ANT_images/down.png'
+57.3556 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+57.3556 	EXP 	pract_target: pos = array([ 0.  , -0.25])
+57.3556 	EXP 	pract_target: image = 'ANT_images/incong_r.png'
+57.3556 	EXP 	fix_1: autoDraw = True
+58.3553 	EXP 	fix_1: autoDraw = False
+58.3553 	EXP 	pract_warning: autoDraw = True
+58.4555 	EXP 	pract_warning: autoDraw = False
+58.4555 	EXP 	fix_2: autoDraw = True
+58.8526 	EXP 	fix_2: autoDraw = False
+58.8526 	EXP 	pract_target: autoDraw = True
+59.2368 	DATA 	Keypress: e
+59.2974 	EXP 	fix_1: autoDraw = False
+59.2974 	EXP 	pract_warning: autoDraw = False
+59.2974 	EXP 	fix_2: autoDraw = False
+59.2974 	EXP 	pract_target: autoDraw = False
+59.2974 	EXP 	text_3: color = 'black (named)'
+59.2974 	EXP 	text_3: text = 'Incorrect'
+59.2974 	EXP 	text_3: autoDraw = True
+59.6525 	EXP 	New trial (rep=0, index=16): OrderedDict([('cue_file', 'ANT_images/double.png'), ('flanker', 'ANT_images/incong_r.png'), ('pos', -0.25), ('correct', 'i'), ('fix1', 1.6), ('cue_time', 0.1), ('stimStart', 2.1)])
+59.8356 	EXP 	text_3: autoDraw = False
+59.8356 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+59.8356 	EXP 	pract_warning: image = 'ANT_images/double.png'
+59.8356 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+59.8356 	EXP 	pract_target: pos = array([ 0.  , -0.25])
+59.8356 	EXP 	pract_target: image = 'ANT_images/incong_r.png'
+59.8356 	EXP 	fix_1: autoDraw = True
+61.4251 	EXP 	pract_warning: autoDraw = True
+61.4381 	EXP 	fix_1: autoDraw = False
+61.5388 	EXP 	pract_warning: autoDraw = False
+61.5388 	EXP 	fix_2: autoDraw = True
+61.9358 	EXP 	fix_2: autoDraw = False
+61.9358 	EXP 	pract_target: autoDraw = True
+62.5874 	DATA 	Keypress: i
+62.6140 	EXP 	fix_1: autoDraw = False
+62.6140 	EXP 	pract_warning: autoDraw = False
+62.6140 	EXP 	fix_2: autoDraw = False
+62.6140 	EXP 	pract_target: autoDraw = False
+62.6140 	EXP 	text_3: color = 'black (named)'
+62.6140 	EXP 	text_3: text = 'Correct'
+62.6140 	EXP 	text_3: autoDraw = True
+63.0038 	EXP 	New trial (rep=0, index=17): OrderedDict([('cue_file', 'ANT_images/center.png'), ('flanker', 'ANT_images/neu_l.png'), ('pos', 0.25), ('correct', 'e'), ('fix1', 1.1), ('cue_time', 0.1), ('stimStart', 1.6)])
+63.2027 	EXP 	text_3: autoDraw = False
+63.2027 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+63.2027 	EXP 	pract_warning: image = 'ANT_images/center.png'
+63.2027 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+63.2027 	EXP 	pract_target: pos = array([0.  , 0.25])
+63.2027 	EXP 	pract_target: image = 'ANT_images/neu_l.png'
+63.2027 	EXP 	fix_1: autoDraw = True
+64.2915 	EXP 	pract_warning: autoDraw = True
+64.3049 	EXP 	fix_1: autoDraw = False
+64.4053 	EXP 	pract_warning: autoDraw = False
+64.4053 	EXP 	fix_2: autoDraw = True
+64.8026 	EXP 	fix_2: autoDraw = False
+64.8026 	EXP 	pract_target: autoDraw = True
+65.2199 	DATA 	Keypress: e
+65.2352 	EXP 	fix_1: autoDraw = False
+65.2352 	EXP 	pract_warning: autoDraw = False
+65.2352 	EXP 	fix_2: autoDraw = False
+65.2352 	EXP 	pract_target: autoDraw = False
+65.2352 	EXP 	text_3: color = 'black (named)'
+65.2352 	EXP 	text_3: text = 'Correct'
+65.2352 	EXP 	text_3: autoDraw = True
+65.6205 	EXP 	New trial (rep=0, index=18): OrderedDict([('cue_file', 'ANT_images/double.png'), ('flanker', 'ANT_images/incong_l.png'), ('pos', -0.25), ('correct', 'e'), ('fix1', 1.5), ('cue_time', 0.1), ('stimStart', 2.0)])
+65.8284 	EXP 	text_3: autoDraw = False
+65.8284 	EXP 	text_3: autoDraw = False
+65.8284 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+65.8284 	EXP 	pract_warning: image = 'ANT_images/double.png'
+65.8284 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+65.8284 	EXP 	pract_target: pos = array([ 0.  , -0.25])
+65.8284 	EXP 	pract_target: image = 'ANT_images/incong_l.png'
+65.8284 	EXP 	fix_1: autoDraw = True
+67.3084 	EXP 	pract_warning: autoDraw = True
+67.3382 	EXP 	fix_1: autoDraw = False
+67.4219 	EXP 	pract_warning: autoDraw = False
+67.4219 	EXP 	fix_2: autoDraw = True
+67.8192 	EXP 	fix_2: autoDraw = False
+67.8192 	EXP 	pract_target: autoDraw = True
+68.3037 	DATA 	Keypress: i
+68.3288 	EXP 	fix_1: autoDraw = False
+68.3288 	EXP 	pract_warning: autoDraw = False
+68.3288 	EXP 	fix_2: autoDraw = False
+68.3288 	EXP 	pract_target: autoDraw = False
+68.3288 	EXP 	text_3: color = 'black (named)'
+68.3288 	EXP 	text_3: text = 'Incorrect'
+68.3288 	EXP 	text_3: autoDraw = True
+68.7202 	EXP 	New trial (rep=0, index=19): OrderedDict([('cue_file', 'ANT_images/none.png'), ('flanker', 'ANT_images/incong_r.png'), ('pos', 0.25), ('correct', 'i'), ('fix1', 0.1), ('cue_time', 0.0), ('stimStart', 0.5)])
+68.9049 	EXP 	text_3: autoDraw = False
+68.9049 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+68.9049 	EXP 	pract_warning: image = 'ANT_images/none.png'
+68.9049 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+68.9049 	EXP 	pract_target: pos = array([0.  , 0.25])
+68.9049 	EXP 	pract_target: image = 'ANT_images/incong_r.png'
+68.9049 	EXP 	fix_1: autoDraw = True
+68.9916 	EXP 	pract_warning: autoDraw = True
+68.9916 	EXP 	pract_warning: autoDraw = False
+68.9916 	EXP 	fix_2: autoDraw = True
+69.0047 	EXP 	fix_1: autoDraw = False
+69.4024 	EXP 	fix_2: autoDraw = False
+69.4024 	EXP 	pract_target: autoDraw = True
+70.0042 	DATA 	Keypress: i
+70.0293 	EXP 	fix_1: autoDraw = False
+70.0293 	EXP 	pract_warning: autoDraw = False
+70.0293 	EXP 	fix_2: autoDraw = False
+70.0293 	EXP 	pract_target: autoDraw = False
+70.0293 	EXP 	text_3: color = 'black (named)'
+70.0293 	EXP 	text_3: text = 'Correct'
+70.0293 	EXP 	text_3: autoDraw = True
+70.4204 	EXP 	New trial (rep=0, index=20): OrderedDict([('cue_file', 'ANT_images/center.png'), ('flanker', 'ANT_images/incong_l.png'), ('pos', -0.25), ('correct', 'e'), ('fix1', 1.3), ('cue_time', 0.1), ('stimStart', 1.8000000000000003)])
+70.5813 	EXP 	text_3: autoDraw = False
+70.5813 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+70.5813 	EXP 	pract_warning: image = 'ANT_images/center.png'
+70.5813 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+70.5813 	EXP 	pract_target: pos = array([ 0.  , -0.25])
+70.5813 	EXP 	pract_target: image = 'ANT_images/incong_l.png'
+70.5813 	EXP 	fix_1: autoDraw = True
+71.8750 	EXP 	pract_warning: autoDraw = True
+71.8882 	EXP 	fix_1: autoDraw = False
+71.9885 	EXP 	pract_warning: autoDraw = False
+71.9885 	EXP 	fix_2: autoDraw = True
+72.3857 	EXP 	fix_2: autoDraw = False
+72.3857 	EXP 	pract_target: autoDraw = True
+72.9697 	DATA 	Keypress: e
+72.9851 	EXP 	fix_1: autoDraw = False
+72.9851 	EXP 	pract_warning: autoDraw = False
+72.9851 	EXP 	fix_2: autoDraw = False
+72.9851 	EXP 	pract_target: autoDraw = False
+72.9851 	EXP 	text_3: color = 'black (named)'
+72.9851 	EXP 	text_3: text = 'Correct'
+72.9851 	EXP 	text_3: autoDraw = True
+73.3706 	EXP 	New trial (rep=0, index=21): OrderedDict([('cue_file', 'ANT_images/up.png'), ('flanker', 'ANT_images/incong_r.png'), ('pos', 0.25), ('correct', 'i'), ('fix1', 0.9), ('cue_time', 0.1), ('stimStart', 1.4)])
+73.5762 	EXP 	text_3: autoDraw = False
+73.5762 	EXP 	text_3: autoDraw = False
+73.5762 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+73.5762 	EXP 	pract_warning: image = 'ANT_images/up.png'
+73.5762 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+73.5762 	EXP 	pract_target: pos = array([0.  , 0.25])
+73.5762 	EXP 	pract_target: image = 'ANT_images/incong_r.png'
+73.5762 	EXP 	fix_1: autoDraw = True
+74.4749 	EXP 	pract_warning: autoDraw = True
+74.4881 	EXP 	fix_1: autoDraw = False
+74.5884 	EXP 	pract_warning: autoDraw = False
+74.5884 	EXP 	fix_2: autoDraw = True
+74.9858 	EXP 	fix_2: autoDraw = False
+74.9858 	EXP 	pract_target: autoDraw = True
+75.3531 	DATA 	Keypress: i
+75.3683 	EXP 	fix_1: autoDraw = False
+75.3683 	EXP 	pract_warning: autoDraw = False
+75.3683 	EXP 	fix_2: autoDraw = False
+75.3683 	EXP 	pract_target: autoDraw = False
+75.3683 	EXP 	text_3: color = 'black (named)'
+75.3683 	EXP 	text_3: text = 'Correct'
+75.3683 	EXP 	text_3: autoDraw = True
+75.7526 	EXP 	New trial (rep=0, index=22): OrderedDict([('cue_file', 'ANT_images/down.png'), ('flanker', 'ANT_images/cong_l.png'), ('pos', -0.25), ('correct', 'e'), ('fix1', 1.2), ('cue_time', 0.1), ('stimStart', 1.7000000000000002)])
+75.9362 	EXP 	text_3: autoDraw = False
+75.9362 	EXP 	text_3: autoDraw = False
+75.9362 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+75.9362 	EXP 	pract_warning: image = 'ANT_images/down.png'
+75.9362 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+75.9362 	EXP 	pract_target: pos = array([ 0.  , -0.25])
+75.9362 	EXP 	pract_target: image = 'ANT_images/cong_l.png'
+75.9362 	EXP 	fix_1: autoDraw = True
+77.1249 	EXP 	pract_warning: autoDraw = True
+77.1380 	EXP 	fix_1: autoDraw = False
+77.2386 	EXP 	pract_warning: autoDraw = False
+77.2386 	EXP 	fix_2: autoDraw = True
+77.6358 	EXP 	fix_2: autoDraw = False
+77.6358 	EXP 	pract_target: autoDraw = True
+78.0532 	DATA 	Keypress: e
+78.0683 	EXP 	fix_1: autoDraw = False
+78.0683 	EXP 	pract_warning: autoDraw = False
+78.0683 	EXP 	fix_2: autoDraw = False
+78.0683 	EXP 	pract_target: autoDraw = False
+78.0683 	EXP 	text_3: color = 'black (named)'
+78.0683 	EXP 	text_3: text = 'Correct'
+78.0683 	EXP 	text_3: autoDraw = True
+78.4537 	EXP 	New trial (rep=0, index=23): OrderedDict([('cue_file', 'ANT_images/none.png'), ('flanker', 'ANT_images/cong_r.png'), ('pos', -0.25), ('correct', 'i'), ('fix1', 0.1), ('cue_time', 0.0), ('stimStart', 0.5)])
+78.6658 	EXP 	text_3: autoDraw = False
+78.6658 	EXP 	text_3: autoDraw = False
+78.6658 	EXP 	fix_1: image = 'ANT_images/fixation.png'
+78.6658 	EXP 	pract_warning: image = 'ANT_images/none.png'
+78.6658 	EXP 	fix_2: image = 'ANT_images/fixation.png'
+78.6658 	EXP 	pract_target: pos = array([ 0.  , -0.25])
+78.6658 	EXP 	pract_target: image = 'ANT_images/cong_r.png'
+78.6658 	EXP 	fix_1: autoDraw = True
+78.7577 	EXP 	pract_warning: autoDraw = True
+78.7577 	EXP 	pract_warning: autoDraw = False
+78.7577 	EXP 	fix_2: autoDraw = True
+78.7709 	EXP 	fix_1: autoDraw = False
+79.1691 	EXP 	fix_2: autoDraw = False
+79.1691 	EXP 	pract_target: autoDraw = True
+79.7865 	DATA 	Keypress: i
+79.8017 	EXP 	fix_1: autoDraw = False
+79.8017 	EXP 	pract_warning: autoDraw = False
+79.8017 	EXP 	fix_2: autoDraw = False
+79.8017 	EXP 	pract_target: autoDraw = False
+79.8017 	EXP 	text_3: color = 'black (named)'
+79.8017 	EXP 	text_3: text = 'Correct'
+79.8017 	EXP 	text_3: autoDraw = True
+80.2019 	EXP 	text_3: autoDraw = False
+80.2019 	EXP 	text_3: autoDraw = False
+80.2019 	EXP 	practice_res: autoDraw = True
+80.2019 	EXP 	practice_accuracy: autoDraw = True
+80.2019 	EXP 	response_time: autoDraw = True
+82.3697 	DATA 	Keypress: escape
+82.6739 	EXP 	window1: mouseVisible = True
