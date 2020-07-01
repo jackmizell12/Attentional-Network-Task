@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.3),
-    on July 01, 2020, at 17:23
+    on July 01, 2020, at 17:29
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1523,10 +1523,6 @@ for thisTrial_2 in trials_2:
                         response.corr = 0
                     # a response ends the routine
                     continueRoutine = False
-            timer = core.Clock()
-            rt = timer.getTime()
-            x = (3.5 - fix1 - rt)
-            timer.reset()
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1844,10 +1840,6 @@ for thisTrial_3 in trials_3:
                     response.corr = 0
                 # a response ends the routine
                 continueRoutine = False
-        timer = core.Clock()
-        rt = timer.getTime()
-        x = (3.5 - fix1 - rt)
-        timer.reset()
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):

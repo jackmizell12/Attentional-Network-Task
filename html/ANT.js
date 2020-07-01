@@ -1815,9 +1815,6 @@ function trialRoutineBegin(trials) {
 }
 
 
-var timer;
-var rt;
-var x;
 function trialRoutineEachFrame(trials) {
   return function () {
     //------Loop for each frame of Routine 'trial'-------
@@ -1926,11 +1923,6 @@ function trialRoutineEachFrame(trials) {
         continueRoutine = false;
       }
     }
-    
-    timer = new core.Clock();
-    rt = timer.getTime();
-    x = ((3.5 - fix1) - rt);
-    timer.reset();
     
     // check for quit (typically the Esc key)
     if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
@@ -2250,8 +2242,6 @@ function quitPsychoJS(message, isCompleted) {
   if (psychoJS.experiment.isEntryEmpty()) {
     psychoJS.experiment.nextEntry();
   }
-  
-  
   
   
   
