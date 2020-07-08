@@ -1887,7 +1887,7 @@ function trialRoutineEachFrame(trials) {
       post_fixation.setAutoDraw(true);
     }
 
-    if (post_fixation.status === PsychoJS.Status.STARTED && t >= (post_fixation.tStart + x)) {
+    if (post_fixation.status === PsychoJS.Status.STARTED && t >= (post_fixation.tStart)) {
       post_fixation.setAutoDraw(false);
     }
     
