@@ -1376,8 +1376,8 @@ function pract_trialRoutineEachFrame(trials) {
       let theseKeys = pract_resp.getKeys({keyList: ['e', 'i'], waitRelease: false});
       _pract_resp_allKeys = _pract_resp_allKeys.concat(theseKeys);
       if (_pract_resp_allKeys.length > 0) {
-        pract_resp.keys = _pract_resp_allKeys[_pract_resp_allKeys.length - 1].name;  // just the last key pressed
-        pract_resp.rt = _pract_resp_allKeys[_pract_resp_allKeys.length - 1].rt;
+        pract_resp.keys = _pract_resp_allKeys[0].name;  // just the first key pressed
+        pract_resp.rt = _pract_resp_allKeys[0].rt;
         // was this correct?
         if (pract_resp.keys == correct) {
             pract_resp.corr = 1;
@@ -1911,8 +1911,8 @@ function trialRoutineEachFrame(trials) {
       let theseKeys = response.getKeys({keyList: ['e', 'i'], waitRelease: false});
       _response_allKeys = _response_allKeys.concat(theseKeys);
       if (_response_allKeys.length > 0) {
-        response.keys = _response_allKeys[_response_allKeys.length - 1].name;  // just the last key pressed
-        response.rt = _response_allKeys[_response_allKeys.length - 1].rt;
+        response.keys = _response_allKeys[0].name;  // just the first key pressed
+        response.rt = _response_allKeys[0].rt;
         // was this correct?
         if (response.keys == correct) {
             response.corr = 1;
