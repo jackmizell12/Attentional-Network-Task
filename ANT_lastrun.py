@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.3),
-    on July 08, 2020, at 14:50
+    on July 09, 2020, at 05:42
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -997,8 +997,8 @@ for thisPractice in practice:
             theseKeys = pract_resp.getKeys(keyList=['e', 'i'], waitRelease=False)
             _pract_resp_allKeys.extend(theseKeys)
             if len(_pract_resp_allKeys):
-                pract_resp.keys = _pract_resp_allKeys[-1].name  # just the last key pressed
-                pract_resp.rt = _pract_resp_allKeys[-1].rt
+                pract_resp.keys = _pract_resp_allKeys[0].name  # just the first key pressed
+                pract_resp.rt = _pract_resp_allKeys[0].rt
                 # was this correct?
                 if (pract_resp.keys == str(correct)) or (pract_resp.keys == correct):
                     pract_resp.corr = 1
@@ -1514,8 +1514,8 @@ for thisTrial_2 in trials_2:
                 theseKeys = response.getKeys(keyList=['e', 'i'], waitRelease=False)
                 _response_allKeys.extend(theseKeys)
                 if len(_response_allKeys):
-                    response.keys = _response_allKeys[-1].name  # just the last key pressed
-                    response.rt = _response_allKeys[-1].rt
+                    response.keys = _response_allKeys[0].name  # just the first key pressed
+                    response.rt = _response_allKeys[0].rt
                     # was this correct?
                     if (response.keys == str(correct)) or (response.keys == correct):
                         response.corr = 1
@@ -1831,8 +1831,8 @@ for thisTrial_3 in trials_3:
             theseKeys = response.getKeys(keyList=['e', 'i'], waitRelease=False)
             _response_allKeys.extend(theseKeys)
             if len(_response_allKeys):
-                response.keys = _response_allKeys[-1].name  # just the last key pressed
-                response.rt = _response_allKeys[-1].rt
+                response.keys = _response_allKeys[0].name  # just the first key pressed
+                response.rt = _response_allKeys[0].rt
                 # was this correct?
                 if (response.keys == str(correct)) or (response.keys == correct):
                     response.corr = 1
