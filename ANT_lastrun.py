@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.3),
-    on July 09, 2020, at 05:42
+    on July 09, 2020, at 07:30
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -280,15 +280,18 @@ target = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-3.0)
-post_fixation = visual.ImageStim(
+response = keyboard.Keyboard()
+
+# Initialize components for Routine "post_fixation_2"
+post_fixation_2Clock = core.Clock()
+postfix = visual.ImageStim(
     win=win,
-    name='post_fixation', 
+    name='postfix', 
     image='ANT_images/fixation.png', mask=None,
     ori=0, pos=(0, 0), size=(1, 1),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-4.0)
-response = keyboard.Keyboard()
+    texRes=128, interpolate=True, depth=0.0)
 
 # Initialize components for Routine "break_2"
 break_2Clock = core.Clock()
@@ -335,15 +338,18 @@ target = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-3.0)
-post_fixation = visual.ImageStim(
+response = keyboard.Keyboard()
+
+# Initialize components for Routine "post_fixation_2"
+post_fixation_2Clock = core.Clock()
+postfix = visual.ImageStim(
     win=win,
-    name='post_fixation', 
+    name='postfix', 
     image='ANT_images/fixation.png', mask=None,
     ori=0, pos=(0, 0), size=(1, 1),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-4.0)
-response = keyboard.Keyboard()
+    texRes=128, interpolate=True, depth=0.0)
 
 # Initialize components for Routine "end"
 endClock = core.Clock()
@@ -1381,7 +1387,7 @@ for thisTrial_2 in trials_2:
         response.rt = []
         _response_allKeys = []
         # keep track of which components have finished
-        trialComponents = [fixation_1, warning, fixation_2, target, post_fixation, response]
+        trialComponents = [fixation_1, warning, fixation_2, target, response]
         for thisComponent in trialComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -1472,23 +1478,6 @@ for thisTrial_2 in trials_2:
                     win.timeOnFlip(target, 'tStopRefresh')  # time at next scr refresh
                     target.setAutoDraw(False)
             
-            # *post_fixation* updates
-            if post_fixation.status == NOT_STARTED and target.status==FINISHED:
-                # keep track of start time/frame for later
-                post_fixation.frameNStart = frameN  # exact frame index
-                post_fixation.tStart = t  # local t and not account for scr refresh
-                post_fixation.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(post_fixation, 'tStartRefresh')  # time at next scr refresh
-                post_fixation.setAutoDraw(True)
-            if post_fixation.status == STARTED:
-                # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > post_fixation.tStartRefresh + x-frameTolerance:
-                    # keep track of stop time/frame for later
-                    post_fixation.tStop = t  # not accounting for scr refresh
-                    post_fixation.frameNStop = frameN  # exact frame index
-                    win.timeOnFlip(post_fixation, 'tStopRefresh')  # time at next scr refresh
-                    post_fixation.setAutoDraw(False)
-            
             # *response* updates
             waitOnFlip = False
             if response.status == NOT_STARTED and stimStart:
@@ -1553,8 +1542,6 @@ for thisTrial_2 in trials_2:
         trials.addData('fixation_2.stopped', fixation_2.tStopRefresh)
         trials.addData('target.started', target.tStartRefresh)
         trials.addData('target.stopped', target.tStopRefresh)
-        trials.addData('post_fixation.started', post_fixation.tStartRefresh)
-        trials.addData('post_fixation.stopped', post_fixation.tStopRefresh)
         # check responses
         if response.keys in ['', [], None]:  # No response was made
             response.keys = None
@@ -1571,6 +1558,76 @@ for thisTrial_2 in trials_2:
         trials.addData('response.started', response.tStartRefresh)
         trials.addData('response.stopped', response.tStopRefresh)
         # the Routine "trial" was not non-slip safe, so reset the non-slip timer
+        routineTimer.reset()
+        
+        # ------Prepare to start Routine "post_fixation_2"-------
+        continueRoutine = True
+        # update component parameters for each repeat
+        # keep track of which components have finished
+        post_fixation_2Components = [postfix]
+        for thisComponent in post_fixation_2Components:
+            thisComponent.tStart = None
+            thisComponent.tStop = None
+            thisComponent.tStartRefresh = None
+            thisComponent.tStopRefresh = None
+            if hasattr(thisComponent, 'status'):
+                thisComponent.status = NOT_STARTED
+        # reset timers
+        t = 0
+        _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+        post_fixation_2Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+        frameN = -1
+        
+        # -------Run Routine "post_fixation_2"-------
+        while continueRoutine:
+            # get current time
+            t = post_fixation_2Clock.getTime()
+            tThisFlip = win.getFutureFlipTime(clock=post_fixation_2Clock)
+            tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+            frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+            # update/draw components on each frame
+            
+            # *postfix* updates
+            if postfix.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                postfix.frameNStart = frameN  # exact frame index
+                postfix.tStart = t  # local t and not account for scr refresh
+                postfix.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(postfix, 'tStartRefresh')  # time at next scr refresh
+                postfix.setAutoDraw(True)
+            if postfix.status == STARTED:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > postfix.tStartRefresh + postFix-frameTolerance:
+                    # keep track of stop time/frame for later
+                    postfix.tStop = t  # not accounting for scr refresh
+                    postfix.frameNStop = frameN  # exact frame index
+                    win.timeOnFlip(postfix, 'tStopRefresh')  # time at next scr refresh
+                    postfix.setAutoDraw(False)
+            
+            # check for quit (typically the Esc key)
+            if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+                core.quit()
+            
+            # check if all components have finished
+            if not continueRoutine:  # a component has requested a forced-end of Routine
+                break
+            continueRoutine = False  # will revert to True if at least one component still running
+            for thisComponent in post_fixation_2Components:
+                if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                    continueRoutine = True
+                    break  # at least one component has not yet finished
+            
+            # refresh the screen
+            if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+                win.flip()
+        
+        # -------Ending Routine "post_fixation_2"-------
+        for thisComponent in post_fixation_2Components:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        trials.addData('postfix.started', postfix.tStartRefresh)
+        trials.addData('postfix.stopped', postfix.tStopRefresh)
+        # the Routine "post_fixation_2" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
         thisExp.nextEntry()
         
@@ -1698,7 +1755,7 @@ for thisTrial_3 in trials_3:
     response.rt = []
     _response_allKeys = []
     # keep track of which components have finished
-    trialComponents = [fixation_1, warning, fixation_2, target, post_fixation, response]
+    trialComponents = [fixation_1, warning, fixation_2, target, response]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -1789,23 +1846,6 @@ for thisTrial_3 in trials_3:
                 win.timeOnFlip(target, 'tStopRefresh')  # time at next scr refresh
                 target.setAutoDraw(False)
         
-        # *post_fixation* updates
-        if post_fixation.status == NOT_STARTED and target.status==FINISHED:
-            # keep track of start time/frame for later
-            post_fixation.frameNStart = frameN  # exact frame index
-            post_fixation.tStart = t  # local t and not account for scr refresh
-            post_fixation.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(post_fixation, 'tStartRefresh')  # time at next scr refresh
-            post_fixation.setAutoDraw(True)
-        if post_fixation.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > post_fixation.tStartRefresh + x-frameTolerance:
-                # keep track of stop time/frame for later
-                post_fixation.tStop = t  # not accounting for scr refresh
-                post_fixation.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(post_fixation, 'tStopRefresh')  # time at next scr refresh
-                post_fixation.setAutoDraw(False)
-        
         # *response* updates
         waitOnFlip = False
         if response.status == NOT_STARTED and stimStart:
@@ -1870,8 +1910,6 @@ for thisTrial_3 in trials_3:
     trials_3.addData('fixation_2.stopped', fixation_2.tStopRefresh)
     trials_3.addData('target.started', target.tStartRefresh)
     trials_3.addData('target.stopped', target.tStopRefresh)
-    trials_3.addData('post_fixation.started', post_fixation.tStartRefresh)
-    trials_3.addData('post_fixation.stopped', post_fixation.tStopRefresh)
     # check responses
     if response.keys in ['', [], None]:  # No response was made
         response.keys = None
@@ -1888,6 +1926,76 @@ for thisTrial_3 in trials_3:
     trials_3.addData('response.started', response.tStartRefresh)
     trials_3.addData('response.stopped', response.tStopRefresh)
     # the Routine "trial" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
+    
+    # ------Prepare to start Routine "post_fixation_2"-------
+    continueRoutine = True
+    # update component parameters for each repeat
+    # keep track of which components have finished
+    post_fixation_2Components = [postfix]
+    for thisComponent in post_fixation_2Components:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    post_fixation_2Clock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    frameN = -1
+    
+    # -------Run Routine "post_fixation_2"-------
+    while continueRoutine:
+        # get current time
+        t = post_fixation_2Clock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=post_fixation_2Clock)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *postfix* updates
+        if postfix.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            postfix.frameNStart = frameN  # exact frame index
+            postfix.tStart = t  # local t and not account for scr refresh
+            postfix.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(postfix, 'tStartRefresh')  # time at next scr refresh
+            postfix.setAutoDraw(True)
+        if postfix.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > postfix.tStartRefresh + postFix-frameTolerance:
+                # keep track of stop time/frame for later
+                postfix.tStop = t  # not accounting for scr refresh
+                postfix.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(postfix, 'tStopRefresh')  # time at next scr refresh
+                postfix.setAutoDraw(False)
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in post_fixation_2Components:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # -------Ending Routine "post_fixation_2"-------
+    for thisComponent in post_fixation_2Components:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    trials_3.addData('postfix.started', postfix.tStartRefresh)
+    trials_3.addData('postfix.stopped', postfix.tStopRefresh)
+    # the Routine "post_fixation_2" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
     

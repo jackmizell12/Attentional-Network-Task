@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.3),
-    on July 09, 2020, at 05:46
+    on July 09, 2020, at 05:56
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1482,7 +1482,7 @@ for thisTrial_2 in trials_2:
                 post_fixation.setAutoDraw(True)
             if post_fixation.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > post_fixation.tStartRefresh + 0.0-frameTolerance:
+                if tThisFlipGlobal > post_fixation.tStartRefresh + x-frameTolerance:
                     # keep track of stop time/frame for later
                     post_fixation.tStop = t  # not accounting for scr refresh
                     post_fixation.frameNStop = frameN  # exact frame index

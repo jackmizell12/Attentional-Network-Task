@@ -140,8 +140,9 @@ var fixation_1;
 var warning;
 var fixation_2;
 var target;
-var post_fixation;
 var response;
+var post_fixation_2Clock;
+var postfix;
 var break_2Clock;
 var break_message;
 var break_key;
@@ -394,17 +395,19 @@ function experimentInit() {
     flipHoriz : false, flipVert : false,
     texRes : 128, interpolate : true, depth : -3.0 
   });
-  post_fixation = new visual.ImageStim({
+  response = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
+  // Initialize components for Routine "post_fixation_2"
+  post_fixation_2Clock = new util.Clock();
+  postfix = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'post_fixation', units : undefined, 
+    name : 'postfix', units : undefined, 
     image : 'ANT_images/fixation.png', mask : undefined,
     ori : 0, pos : [0, 0], size : [1, 1],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
-    texRes : 128, interpolate : true, depth : -4.0 
+    texRes : 128, interpolate : true, depth : 0.0 
   });
-  response = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
-  
   // Initialize components for Routine "break_2"
   break_2Clock = new util.Clock();
   break_message = new visual.TextStim({
@@ -458,17 +461,19 @@ function experimentInit() {
     flipHoriz : false, flipVert : false,
     texRes : 128, interpolate : true, depth : -3.0 
   });
-  post_fixation = new visual.ImageStim({
+  response = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
+  // Initialize components for Routine "post_fixation_2"
+  post_fixation_2Clock = new util.Clock();
+  postfix = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'post_fixation', units : undefined, 
+    name : 'postfix', units : undefined, 
     image : 'ANT_images/fixation.png', mask : undefined,
     ori : 0, pos : [0, 0], size : [1, 1],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
-    texRes : 128, interpolate : true, depth : -4.0 
+    texRes : 128, interpolate : true, depth : 0.0 
   });
-  response = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
-  
   // Initialize components for Routine "end"
   endClock = new util.Clock();
   text_2 = new visual.TextStim({
@@ -1202,6 +1207,9 @@ function trialsLoopBegin(thisScheduler) {
     thisScheduler.add(trialRoutineBegin(snapshot));
     thisScheduler.add(trialRoutineEachFrame(snapshot));
     thisScheduler.add(trialRoutineEnd(snapshot));
+    thisScheduler.add(post_fixation_2RoutineBegin(snapshot));
+    thisScheduler.add(post_fixation_2RoutineEachFrame(snapshot));
+    thisScheduler.add(post_fixation_2RoutineEnd(snapshot));
     thisScheduler.add(endLoopIteration(thisScheduler, snapshot));
   });
 
@@ -1244,6 +1252,9 @@ function trials_3LoopBegin(thisScheduler) {
     thisScheduler.add(trialRoutineBegin(snapshot));
     thisScheduler.add(trialRoutineEachFrame(snapshot));
     thisScheduler.add(trialRoutineEnd(snapshot));
+    thisScheduler.add(post_fixation_2RoutineBegin(snapshot));
+    thisScheduler.add(post_fixation_2RoutineEachFrame(snapshot));
+    thisScheduler.add(post_fixation_2RoutineEnd(snapshot));
     thisScheduler.add(endLoopIteration(thisScheduler, snapshot));
   });
 
@@ -1808,7 +1819,6 @@ function trialRoutineBegin(trials) {
     trialComponents.push(warning);
     trialComponents.push(fixation_2);
     trialComponents.push(target);
-    trialComponents.push(post_fixation);
     trialComponents.push(response);
     
     trialComponents.forEach( function(thisComponent) {
@@ -1882,19 +1892,6 @@ function trialRoutineEachFrame(trials) {
 
     if (target.status === PsychoJS.Status.STARTED && t >= (target.tStart + 1.7)) {
       target.setAutoDraw(false);
-    }
-    
-    // *post_fixation* updates
-    if (((target.status == FINISHED)) && post_fixation.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      post_fixation.tStart = t;  // (not accounting for frame time here)
-      post_fixation.frameNStart = frameN;  // exact frame index
-      
-      post_fixation.setAutoDraw(true);
-    }
-
-    if (post_fixation.status === PsychoJS.Status.STARTED && t >= (post_fixation.tStart)) {
-      post_fixation.setAutoDraw(false);
     }
     
     // *response* updates
@@ -1983,6 +1980,93 @@ function trialRoutineEnd(trials) {
     
     response.stop();
     // the Routine "trial" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
+    return Scheduler.Event.NEXT;
+  };
+}
+
+
+var post_fixation_2Components;
+function post_fixation_2RoutineBegin(trials) {
+  return function () {
+    //------Prepare to start Routine 'post_fixation_2'-------
+    t = 0;
+    post_fixation_2Clock.reset(); // clock
+    frameN = -1;
+    // update component parameters for each repeat
+    // keep track of which components have finished
+    post_fixation_2Components = [];
+    post_fixation_2Components.push(postfix);
+    
+    post_fixation_2Components.forEach( function(thisComponent) {
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
+    
+    return Scheduler.Event.NEXT;
+  };
+}
+
+
+function post_fixation_2RoutineEachFrame(trials) {
+  return function () {
+    //------Loop for each frame of Routine 'post_fixation_2'-------
+    let continueRoutine = true; // until we're told otherwise
+    // get current time
+    t = post_fixation_2Clock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *postfix* updates
+    if (t >= 0.0 && postfix.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      postfix.tStart = t;  // (not accounting for frame time here)
+      postfix.frameNStart = frameN;  // exact frame index
+      
+      postfix.setAutoDraw(true);
+    }
+
+    frameRemains = 0.0 + postFix - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if (postfix.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      postfix.setAutoDraw(false);
+    }
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    post_fixation_2Components.forEach( function(thisComponent) {
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+      }
+    });
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function post_fixation_2RoutineEnd(trials) {
+  return function () {
+    //------Ending Routine 'post_fixation_2'-------
+    post_fixation_2Components.forEach( function(thisComponent) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    });
+    // the Routine "post_fixation_2" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
     return Scheduler.Event.NEXT;
